@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fittny</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Noto+Sans+KR:wght@500;900&display=swap" rel="stylesheet">
+
+    <link href="./img/log.png" rel="shortcut icon" type="image/x-icon">
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <!-- <div id="head_shadow">
+        <div  class="inner">
+            <header id="header1">
+                <img src="./img/1.로고.png">
+                <nav id="menu_list">
+                    <ul id="menu">
+                        <li><a href="#">Fitnny 소개</a></li>
+                        <li><a href="#">상담하기</a></li>
+                        <li><a href="#">케어 서비스</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div> -->
+
+
+<section id="banner">
+    <div id="wrap_video">
+        <video muted autoplay loop>
+            <source src="./video/wrap_video.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+        </video>  
+    </div>
+    <div id="wrap_txt">
+        <p id="wrap_title">메타버스로 함께하는 신개념 운동!</p>
+        <p id="wrap_text">Fitnny 에서는 다양한 유저들과 함께 즐거운 운동을 할 수 있어요!<br>메타버스 공간에서 친구와 함께 운동을 즐겨봐요!</p>
+        <img src="./img/2.로고.png" width="235px" height="92px">
+    </div>
+    
+</section>
+
+<section id="section_1" >
+    <div id="section_1_1" class="inner">
+        <h2>Fit & Funny,Fitnny!</h2>
+        <div id="Explanation">
+            <img src="./img/double.png">
+            <div id="section_1Text">
+                <p id="section_1title">내 몸 상태에 맞게 <span style="color: #8A32FF;">Fit,</span> 재미있게 <span style="color: #8A32FF;">Funny!</span></p>
+                <p id="neyoung">나에 대한 분석과 이해 없이 무턱대고 운동하는게 정말 효과가 좋을까요? 이러한 문제<br>의 해답으로 Fitnny 만의 개인 맞춤 서비스가 있습니다!
+                나에게 딱 맞는 운동 가이드를<br>제공해주기 때문에 훨씬 효율성있고 효과적인 운동이 가능하답니다.</p>
+            </div>
+        </div>
+    </div>
+    <div class="circle" id="circle1"></div>
+    <div class="circle" id="circle2"></div>
+</section>
+<section id="section_2">
+    <div class="inner">
+        <div id="sct_2">
+                <p id="section_2_title">나에게 맞는 운동을<span id="section_2_color">Fit</span>하게 찾아드립니다!</p>
+                <p id="section_2_ct">운동량을 측정해 주니깐! 나에게 필요한 운동을 알려주니까! 누구나 어려움 없이 쉽게 따라갈 수<br>있습니다. Fitnny의 운동 분석과 추천만 따라가면
+                목표에 성공적으로 도달할 수 있을 거에요!</p>
+                <div id="sc_2_1">
+                    <div id="section_2_1">
+                        <div id="graphGroup">
+                            <img src="./img/프로필_1.png">
+                            <div class="stats_graph_box">
+                                <div class="h_graph">
+                                    <ul>
+                                        <li><span class="g_term">어깨</span><span id="g_bar_1" class="g_bar"></span></li>
+                                        <li><span class="g_term">허리</span><span id="g_bar_2" class="g_bar"></span></li>
+                                        <li><span class="g_term">등&nbsp;&nbsp;&nbsp;&nbsp;</span><span  id="g_bar_3"class="g_bar"></span></li>
+                                        <li><span class="g_term">팔&nbsp;&nbsp;&nbsp;&nbsp;</span><span  id="g_bar_4"class="g_bar"></span></li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                        <img src="./img/4.운동기록_2.png" width="600px" height="400px">
+                        <!-- <div id="healty">
+                            <img src="./img/4.운동기록_3.png" height="200px" width="450px">
+                            <span class="g_bar1" id="g_bar_5"></span>
+                            <p id="section_2_text">65%</p>
+                        </div> -->
+                    </div>
+                    <div id="section_2_2">
+                        <div id="section_2_content">
+                            <h3>Directional</h3>
+                            <p>상체를 발달 시키고 싶어 하시는 Fitgood 회원님! 회원님께<br>맞는 운동을 몇가지 추천해 드릴께요.</p> 
+                        </div>
+                        <div id="section_2_img">
+                            <div><img src="./img/4.동작일러_1.png"><p>바이시클<br>크런치</p></div>
+                            <div><img src="./img/4.동작일러_2.png"><p>푸시업</p></div>
+                            <div><img src="./img/4.동작일러_3.png"><p>덤벨 숄더<br>프레스</p></div>  
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </div>
+    
+   
+</section>
+<!-- <section id="section_3">
+    <div id="cm" class="hc vc , inner">
+        <div id="text_box">
+            <img src="./img/프로필_2.png">
+            <img src="./img/4.말풍선_1.png">
+        </div>
+        <div id="text_box1">
+            <img src="./img/4.말풍선_2.png">
+            <img src="./img/프로필_3.png">
+        </div>
+    </div>
+</section> -->
+<section id="section_4" style="background-image: url(./img/KakaoTalk_20220607_091803652.png);">
+    <div id="section_4_background"  class="inner">
+        <div>
+            <p id="section_4title">"어떻게 하면<br>다이어트에 성공할 수 있죠?"</p>
+            <p id="section_4text">여러분은 이미 알고 있습니다. 어떻게 해야 다이어트를 성공할지.<br>
+            바로 꾸준히 운동하죠. 하지만 알면서도 실천하기 쉽지 않은 운동<br>
+            어떻게 하면 쉡게 할까요?</p>
+            <button><p id="section_4_btn">한달 이용권 받고 상담하기 ></p></button>
+        </div>
+    </div>
+</section> 
+<section id="section_5">
+    <div id="inner">
+        <div id="section5">
+                <p id="section_5title"><span style="color: #8A32FF; font-size:55px;font-family: 'Baloo 2', cursive;">Fittny</span> 에서는 모두가 재미있게 운동 중!</p>
+                <p id="temp">text</p>
+            <div id="ImgSet">
+                <div id="picSet">
+                    <img id="pic0" src="./img/stage_1.png" alt="그림설명1">
+                    <dl id="text0">
+                        <dt>핏 광장</dt>
+                        <dd>다양한 사람과 만나는 커뮤니티 공간</dd>
+                    </dl>
+
+                    <img id="pic1" src="./img/stage_2.png" alt="그림설명2">
+                    <dl id="text1">
+                        <dt>핏 공원</dt>
+                        <dd>다양한 사람과 만나는 커뮤니티 공간</dd>
+                    </dl>
+
+                    <img id="pic2" src="./img/stage_3.png" alt="그림설명3">
+                    <dl id="text2">
+                        <dt>핏 카페</dt>
+                        <dd>다양한 사람과 만나는 커뮤니티 공간</dd>
+                    </dl>
+
+                    <img id="pic3" src="./img/stage_4.png" alt="그림설명4">
+                    <dl id="text3">
+                        <dt>핏 LIVE</dt>
+                        <dd>난이도별 운동을 할 수 있는 공간</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="autoplay">
+            <div><img id="pic0" src="./img/stage_1.png" alt="그림설명1"></div>
+            <div> <img id="pic1" src="./img/stage_2.png" alt="그림설명2"></div>
+            <div><img id="pic2" src="./img/stage_3.png" alt="그림설명3"></div>
+            <div><img id="pic3" src="./img/stage_4.png" alt="그림설명4"></div>
+          </div> -->
+        <p id="section_5text">핏 경쟁게임 & LIVE광장 & 마일리지 미션<br>운동을 더 즐겁게 하는 Fittny 만의 3가지 비법입니다!</p>
+    </div>
+</section>
+<section id="section_7"  class="inner">
+    <h2>경쟁심을 통한 운동효과!</h2>
+    <p id="suv">경쟁적인 그룹에 속한 사람들은 혼자 하는 사람보다 약 2배 더 많이 운동에 참여 한다는 사실!</p>
+    <div id="section_7_box">
+        <div>
+            <span id="section_7double">X2배</span>
+            <div></div>
+            <div id="section_7graph">
+                <div id="section_7box1"></div>
+                <div id="section_7box2"></div>
+            </div>
+            <div id="section_7line"></div>
+            <div id="graphName">
+                <p id="graphName1"><b>혼자 하는 운동</b></p>
+                <p id="graphName2"><b>Fitnny</b></p>
+            </div> 
+        </div>
+        <div id="section_7TextBox">
+            <img src="./img/5.말풍선_1.png">
+            <img src="./img/5.말풍선_2.png">
+        </div>
+    </div>
+</section>
+<section id="section_8"  >
+    <div id="section_8_1" class="inner">
+        <div id="section_8box">
+            <p id="section_8title">나에게 딱 맞게<span style="font-size: 55px;">Fit</span>한 운동으로 효율<span style="font-size: 55px;">UP!</span></p>
+            <p id="section_8text">나의 운동 데이터를 분석해 나의 운동 진행성과 앞으로의 운동 방향 설정까지 한번에!</p>
+            <div id="section_8_img">
+                <div id="section_8_img_1">
+                    <img src="./img/6.앱화면1.png">
+                    <img id="i1" src="./img/6.앱화면2.png">
+                </div>
+                <div id="section_8_img_2">
+                    <img src="./img/6.그래프1.png">
+                    <img src="./img/6.그래프2.png">
+                    <img src="./img/6.그래프3.png">
+                </div>  
+            </div>
+        </div>
+        
+        
+    </div>
+</section>
+<!-- <section id="section_9">
+    <div><img src="./img/목업1_2.jpg" width="100%" height="1200px"></div>
+    <div id="section_9_1"  class="inner">
+        <h2>나의 온라인 PT썜<br><span style="font-size: 65; color: #D5B6FF; font-family:'Baloo 2', cursive;">Fit</span> 가이드</h2>
+        <p id="section_9text">모션 캡쳐장비를 이용한 운동데이터를 분석하여<br>운동 방향성을 체계적으로 가이드 해주는 나만의 Fit가이드</p>
+        <div id="section_9btn"><p>지금 바로 구독 신청하기 ></p></div>
+    </div>
+</section> -->
+<section id="section_10">
+    <div class="inner">
+        <div id="section_10box">
+            <div id="section_10_1box">
+                <p id="section_10title">내가 <span  style="color: #9B4FFF;">'꾸준히'</span><br>운동 할 수 있을까?</p>
+                <p id="section_10text">해당되는 항목에 체크해 보세요! 이 중 3가지<br>이상 해당 된다면 당신에겐 Fitnny가 꼭 필요합니다!</p>
+        </div>
+            <!-- <div id="section_10btn">
+                <div class="section_10bt"><span>헬스장에 갈 시간이 없어요</span></div>
+                <div class="section_10bt"><span>운동이 지루하고 재미가 없어요</span></div>
+                <div class="section_10bt"><span>홈트를 해도 별로 효과가 없었어요</span></div>
+                <div class="section_10bt"><span>작심삼일 운동 의지가 부족해요</span></div>
+                <div class="section_10bt"><span>꾸준히 운동하기가 힘들어요</span></div>
+            </div> -->
+            <ul id="section_10btn">
+                <li class="section_10bt"><span>헬스장에 갈 시간이 없어요</span></li>
+                <li class="section_10bt"><span>운동이 지루하고 재미가 없어요</span></li>
+                <li class="section_10bt"><span>홈트를 해도 별로 효과가 없었어요</span></li>
+                <li class="section_10bt"><span>작심삼일 운동 의지가 부족해요</span></li>
+                <li class="section_10bt"><span>꾸준히 운동하기가 힘들어요</span></li>
+            </ul>
+        </div> 
+    </div>
+</section>
+<section id="section_11">
+    <div id="section_11_img"><img src="./img/목업4.jpg" width="100%"></div>
+    <div class="inner">
+       <div id="section_11_box">
+        <p id="section_11title">신개념 <span>메타버스</span> 공간으로<br>다양한 유저들과 함께하는 운동!</p>
+        <p id="section_11text">Fit 광장에서는 운동경험을 다양한 유저들과<br>공유하며 혼자 할 때의 무력감을 즐거움으로 바꿀 수 있어요!<br>Live 운동광장에서는
+        친구를 초대해서 함께 운동을 즐겨요!</p>
+    </div> 
+    </div>
+    
+</section>
+<section id="section_12">
+    <div id="section_12_1" class="circle"></div>
+    <div id="section_12_2" class="circle"></div>  
+    <div id="section_12box"  class="inner">
+        <p id="section_12title">끝까지 케어하는<br>프리미엄 서비스 <span style="font-family: 'Baloo 2', cursive; color: #9B4FFF;">Fitnny</span></p>
+        <img id="section_12img" src="./img/8.아이콘.png">
+        <h3>Private care</h3>
+        <p id="section_12text">배송 현황부터 문의사항까지<br>Fitnny전담 매니저가<br><strong>1:1케어</strong>를 제공해드립니다.</p>
+    </div>
+    
+</section>
+<footer>
+    <div class="nav_wrap inner">
+        <img src="./img/log.png" width="50px">
+        <nav class="footer_nav">
+            <div class="dldldl">
+               <div class="sitemap_set">
+                <a class="sitemap_title">CS CENTER</a>
+                <ul>
+                    <li>평일 08:00 ~ 18:00</li>
+                    <li>주말 및 공휴일 10:00 ~ 18:00</li>
+                    <li><a href="#">자주 묻는 질문</a></li>
+                    <li><a href="#">1:1 상담</a></li>
+                </ul>
+            </div>
+            <div id="last">
+                <div class="sitemap_set1">
+                    <a class="sitemap_title">WITH US</a>
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보 처리방법</a></li>
+                        <li><a href="#">이용안내</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap_set1">
+                    <a class="sitemap_title">FIT PASS</a>
+                    <ul>
+                        <li><a href="#">Fit Pass소개</a></li>
+                        <li><a href="#">Fit Pass ALL</a></li>
+                        <li><a href="#">Fit Pass Mini</a></li>
+                    </ul>
+                </div>   
+            </div> 
+            </div> 
+        </nav>
+        <div id="footer_bottom">
+            <p>rlawlsdn0327@Daum.net</p>
+            <ul id="footer_icon">
+                <li><img src="./img/9.아이콘1.png"></li>
+                <li><img src="./img/9.아이콘2.png"></li>
+                <li><img src="./img/9.아이콘3.png"></li>
+                <li><img src="./img/9.아이콘4.png"></li>
+            </ul>
+          </div>
+    </div>
+</footer>
+<script src="./js/project.js"></script>
+<script src="./js/project2.js"></script>
+</body>
+</html>
