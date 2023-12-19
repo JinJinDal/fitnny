@@ -41,7 +41,7 @@ header p{
     color: rgb(175, 0, 175);
     font-family:'Baloo 2', cursive;
 } */
-@media (max-width : 1920px){
+/* @media (max-width : 1920px){
     section{
         height: 1080px;
     }
@@ -50,7 +50,7 @@ header p{
     section{
         height: 1200px;
     }
-}
+} */
 .inner{
     margin: 0 66px;
     /* border-bottom: 3px solid white; */
