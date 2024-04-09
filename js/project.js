@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded",function(){
     window.onscroll = function(){
-        console.log(window.scrollY);
         if(window.scrollY>2950){
             document.getElementById("text_box").classList.add("active");
             document.getElementById("text_box1").classList.add("active");
@@ -42,7 +41,6 @@ init();
 
 window.addEventListener("DOMContentLoaded", function(){
     window.onscroll = function(){
-        console.log(window.scrollY);
         if(window.scrollY > 500){
             document.getElementById("circle1").classList.add("active");
         }else{
